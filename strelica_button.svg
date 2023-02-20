@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="120"
+   height="50"
+   viewBox="0 0 31.75 13.229166"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="strelica_button.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview10"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="8.8166667"
+     inkscape:cx="59.943289"
+     inkscape:cy="24.952741"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5" />
+  <defs
+     id="defs2" />
+  <g
+     id="layer1"
+     transform="matrix(1,0,0,0.99064122,-0.1200378,3.9191455e-4)"
+     style="fill:#f2f2f2">
+    <rect
+       style="fill:#f2f2f2;fill-opacity:0;stroke:#0000ff;stroke-width:0"
+       id="rect912"
+       width="3.3953066"
+       height="1.4296039"
+       x="4.2888088"
+       y="19.835737" />
+    <rect
+       style="fill:#f2f2f2;fill-opacity:0;stroke:#0000ff;stroke-width:0"
+       id="rect914"
+       width="16.529783"
+       height="4.8249087"
+       x="5.539711"
+       y="15.010831" />
+    <g
+       id="g7080"
+       transform="matrix(1.0567134,0,0,1.1479491,-7.0965169,-20.450718)"
+       style="fill:#f2f2f2">
+      <rect
+         style="fill:#f2f2f2;fill-opacity:1;stroke:#0000ff;stroke-width:0"
+         id="rect6166"
+         width="17.870035"
+         height="3.4846542"
+         x="6.9693141"
+         y="21.890795" />
+      <path
+         style="fill:#f2f2f2;fill-opacity:1;stroke:#0000ff;stroke-width:0"
+         id="path6732"
+         d="M 141.15921,57.746953 113.33802,74.484927 85.516831,91.222901 84.931915,58.760057 84.346999,26.297213 112.75311,42.022083 Z"
+         transform="matrix(0.21532241,0.00340758,-0.00412522,0.17786465,6.7467031,12.88672)" />
+    </g>
+  </g>
+</svg>

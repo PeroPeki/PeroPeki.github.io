@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+
+
+  .navbar {
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    position: relative;
+    display: flex;
+  }
+
+ 
+  .logo {
+    height: 60px;
+    width: 60px;
+  
+  }
+  
+  
+  .navbar-nav > li {
+    margin-left: 1em;
+    font-size: medium;
+    padding: 0.5rem;
+    color: purple;
+  }
+  
+
+
+  h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: purple;
+    font-style: bold;
+  }
+
+  h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: purple;
+    font-style: bold;
+  }
+
+  h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: purple;
+    font-style: bold;
+    
+  }
+
+
+  p{
+    text-align: center;
+    color: violet;
+    font-family:'Open Sans', sans-serif;
+  }
+
+  .prva_slika{
+    max-width: 100%;
+    height: 300px;
+    align-items: center;
+  }
+
+  .mapa{
+    align-items: center;
+  }
+
+  .apartmani{
+    max-width: 100%;
+    height: 300px;
+    align-items: center;
+  }
+
+  .app1_slika1{
+    max-width: 100%;
+    height: 300px;
+    align-items: center;
+  }
+
+
+  .button1{
+    width: 130px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: white;
+    background-color: purple;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .button1 img{
+    width: 30px;
+    display: none;
+  }
+
+  .button1:hover img{
+    display: block;
+  }
+
+  .button1:hover{
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  
