@@ -21,6 +21,17 @@
                         href="style.css"
                         rel="stylesheet"
                 />
+
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+                <link
+                        rel="icon"
+                        href="Logo1.svg"
+                        type="image/gif"
+                        sizes="16x16"
+                />
         </head>
 
         <body>
@@ -36,167 +47,225 @@
                 ></script>
 
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <div class="container-fluid">
-                            <a
-                                    class="navbar-brand"
-                                    href="index.html"
-                            >
-                                    <img
-                                            src="Logo1.svg"
-                                            alt="Logo1"
-                                            class="logo"
-                                    />
-                            </a>
-                            <button
-                                    class="navbar-toggler"
-                                    type="button"
-                                    data-bs-toggle="collapse"
-                                    data-bs-target="#navbarSupportedContent"
-                                    aria-controls="navbarSupportedContent"
-                                    aria-expanded="false"
-                                    aria-label="Toggle navigation"
-                            >
-                                    <span
-                                            class="navbar-toggler-icon"
-                                    ></span>
-                            </button>
-                            <div
-                                    class="collapse navbar-collapse"
-                                    id="navbarSupportedContent"
-                            >
-                                    <ul
-                                            class="navbar-nav ms-auto mb-2 mb-lg-0"
-                                    >
-                                            
-                                    
-                                            <li class="nav-item">
-                                                    <a
-                                                    class="nav-link"
-                                                    href="index.html"
-                                                    style="color: purple !important; 
-                                                    font-family: Arial, Helvetica, sans-serif;"
-                                                    onmouseover="this.style.color='fuchsia'" 
-                                                    onmouseout="this.style.color='purple'"
-                                                    >Početna</a
-                                                    >
-                                            </li>
-                                    
-                                            <li class="nav-item">
-                                                    <a
-                                                            class="nav-link"
-                                                            href="app1.html"
-                                                            style="color: purple !important; 
-                                                            font-family: Arial, Helvetica, sans-serif;"
-                                                            onmouseover="this.style.color='fuchsia'" 
-                                                            onmouseout="this.style.color='purple'"
-                                                            >Apartman (2+2)</a
-                                                    >
-                                            </li>
-                                            <li class="nav-items">
-                                                    <a
-                                                            class="nav-link"
-                                                            href="app2.html"
-                                                            style="color: purple !important; 
-                                                            font-family: Arial, Helvetica, sans-serif;"
-                                                            onmouseover="this.style.color='fuchsia'" 
-                                                            onmouseout="this.style.color='purple'"
-                                                            >Apartman 1(2+1)</a
-                                                    >
-                                            </li>
-                                            <li class="nav-item">
-                                                    <a
-                                                            class="nav-link"
-                                                            href="app3.html"
-                                                            style="color: purple !important; 
-                                                            font-family: Arial, Helvetica, sans-serif;"
-                                                            onmouseover="this.style.color='fuchsia'" 
-                                                            onmouseout="this.style.color='purple'"
-                                                            >Apartman 2 (2+1)</a
-                                                    >
-                                            </li>
-                                            <li class="nav-item">
-                                                    <a
-                                                            class="nav-link"
-                                                            href="kontakt.html"
-                                                            style="color: purple !important; 
-                                                            font-family: Arial, Helvetica, sans-serif;"
-                                                            onmouseover="this.style.color='fuchsia'" 
-                                                            onmouseout="this.style.color='purple'"
-                                                            >Kontakt</a
-                                                    >
-                                            </li>
-                                            <li class="nav-item">
-                                                    <a
-                                                            class="nav-link"
-                                                            href="crikvenica.html"
-                                                            style="color: purple !important; 
-                                                            font-family: Arial, Helvetica, sans-serif;"
-                                                            onmouseover="this.style.color='fuchsia'" 
-                                                            onmouseout="this.style.color='purple'"
-                                                            >Crikvenica</a
-                                                    >
-                                            </li>
-                                    </ul>
-                            </div>
-                    </div>
-            </nav>
+                        <div class="container-fluid">
+                                <a
+                                        class="navbar-brand"
+                                        href="index.html"
+                                >
+                                        <img
+                                                src="Logo1.svg"
+                                                alt="Logo1"
+                                                class="logo"
+                                        />
+                                </a>
+                                <button
+                                        class="navbar-toggler"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#navbarSupportedContent"
+                                        aria-controls="navbarSupportedContent"
+                                        aria-expanded="false"
+                                        aria-label="Toggle navigation"
+                                >
+                                        <span
+                                                class="navbar-toggler-icon"
+                                        ></span>
+                                </button>
+                                <div
+                                        class="collapse navbar-collapse"
+                                        id="navbarSupportedContent"
+                                >
+                                        <ul
+                                                class="navbar-nav ms-auto mb-2 mb-lg-0"
+                                        >
+                                                <li class="nav-item">
+                                                        <a
+                                                                class="nav-link"
+                                                                href="index.html"
+                                                                style="
+                                                                        color: purple !important;
+                                                                        font-family: Arial,
+                                                                                Helvetica,
+                                                                                sans-serif;
+                                                                "
+                                                                onmouseover="this.style.color='fuchsia'"
+                                                                onmouseout="this.style.color='purple'"
+                                                                >Početna</a
+                                                        >
+                                                </li>
 
-
-
-            <!--Sadržaj-->
-
-            <div class="container-fluid">
-                <div class="row">
-                        <div class="col-12">
-                                <br>
-                                <h1>Kontaktirajte nas</h1>
+                                                <li class="nav-item">
+                                                        <a
+                                                                class="nav-link"
+                                                                href="app1.html"
+                                                                style="
+                                                                        color: purple !important;
+                                                                        font-family: Arial,
+                                                                                Helvetica,
+                                                                                sans-serif;
+                                                                "
+                                                                onmouseover="this.style.color='fuchsia'"
+                                                                onmouseout="this.style.color='purple'"
+                                                                >Apartman
+                                                                (2+2)</a
+                                                        >
+                                                </li>
+                                                <li class="nav-items">
+                                                        <a
+                                                                class="nav-link"
+                                                                href="app2.html"
+                                                                style="
+                                                                        color: purple !important;
+                                                                        font-family: Arial,
+                                                                                Helvetica,
+                                                                                sans-serif;
+                                                                "
+                                                                onmouseover="this.style.color='fuchsia'"
+                                                                onmouseout="this.style.color='purple'"
+                                                                >Apartman
+                                                                1(2+1)</a
+                                                        >
+                                                </li>
+                                                <li class="nav-item">
+                                                        <a
+                                                                class="nav-link"
+                                                                href="app3.html"
+                                                                style="
+                                                                        color: purple !important;
+                                                                        font-family: Arial,
+                                                                                Helvetica,
+                                                                                sans-serif;
+                                                                "
+                                                                onmouseover="this.style.color='fuchsia'"
+                                                                onmouseout="this.style.color='purple'"
+                                                                >Apartman 2
+                                                                (2+1)</a
+                                                        >
+                                                </li>
+                                                <li class="nav-item">
+                                                        <a
+                                                                class="nav-link"
+                                                                href="kontakt.html"
+                                                                style="
+                                                                        color: purple !important;
+                                                                        font-family: Arial,
+                                                                                Helvetica,
+                                                                                sans-serif;
+                                                                "
+                                                                onmouseover="this.style.color='fuchsia'"
+                                                                onmouseout="this.style.color='purple'"
+                                                                >Kontakt</a
+                                                        >
+                                                </li>
+                                                <li class="nav-item">
+                                                        <a
+                                                                class="nav-link"
+                                                                href="crikvenica.html"
+                                                                style="
+                                                                        color: purple !important;
+                                                                        font-family: Arial,
+                                                                                Helvetica,
+                                                                                sans-serif;
+                                                                "
+                                                                onmouseover="this.style.color='fuchsia'"
+                                                                onmouseout="this.style.color='purple'"
+                                                                >Crikvenica</a
+                                                        >
+                                                </li>
+                                        </ul>
+                                </div>
                         </div>
-                        <hr>
-                </div>
-                <br><br>
-                <div class="row">
-                        <div class="col-12">
-                                <img src="logo_mobitel.svg" alt="Broj mobitela" style="width: 70px; height: 70px;">
-                                <h5>
-                                        Ivana: +385 98532178
-                                        <br>
-                                        Marija: +385 919303380
-                                </h5>
+                </nav>
+
+                <!--Sadržaj-->
+
+                <div class="container-fluid padding" style="padding-top: 20px; padding-left: 20px;">
+                        <div class="row padding">
+                                <div class="col-12">
+                                        <h1>Kontaktirajte nas</h1>
+                                </div>
+                                <hr class="postovani">
+                        </div>
+                        <br /><br />
+                        <div class="row padding">
+                                <div class="col-12">
+                                        <img
+                                                src="logo_mobitel.svg"
+                                                alt="Broj mobitela"
+                                                style="
+                                                        width: 70px;
+                                                        height: 70px;
+                                                "
+                                        />
+                                        <h5>
+                                                Ivana: +385 98532178
+                                                <br />
+                                                Marija: +385 919303380
+                                        </h5>
+                                </div>
+                        </div>
+                        <br /><br />
+                        <div class="row padding">
+                                <div class="col-12">
+                                        <img
+                                                src="Logo_mail.svg"
+                                                alt="mail"
+                                                style="
+                                                        width: 70px;
+                                                        height: 70px;
+                                                "
+                                        />
+                                        <h5>
+                                                ivana123car@gmail.com <br />
+                                                marija23car@gmail.com
+                                        </h5>
+                                </div>
                         </div>
 
-                        
-                </div>
-                <br><br>
-                <div class="row">
-                        <div class="col-12">
-                                <img src="Logo_mail.svg" alt="mail" style="width: 70px; height: 70px;">
-                                <h5>
-                                        ivana123car@gmail.com <br>
-                                        marija23car@gmail.com
-                                </h5>
-                                
-                        </div>
-                       
-                </div>
-                
+                        <br /><br /><br /><br /><br />
 
-                <br><br><br><br><br>
-                
-                <div class="row">
-                        <div class="col-12">
-                                <img src="Logo_lokacija.svg" alt="lokacija" style="width: 70px; height: 70px;">
-                                <br>
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5624.958291878088!2d14.6834763815167!3d45.1773961636133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47637b78af3023d5%3A0xeed639ac986640b3!2sSad%20ul.%209%2C%2051260%2C%20Crikvenica!5e0!3m2!1shr!2shr!4v1676564628931!5m2!1shr!2shr" 
-                                        width=400" 
-                                        height="250" 
-                                        style="border:0;" 
-                                        allowfullscreen="" 
-                                        loading="lazy" r
-                                        eferrerpolicy="no-referrer-when-downgrade"
-                                        class="mapa">
+                        <div class="row padding">
+                                <div class="col-12">
+                                        <img
+                                                src="Logo_lokacija.svg"
+                                                alt="lokacija"
+                                                style="
+                                                        width: 70px;
+                                                        height: 70px;
+                                                "
+                                        />
+                                        <br />
+                                        <iframe
+                                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5624.958291878088!2d14.6834763815167!3d45.1773961636133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47637b78af3023d5%3A0xeed639ac986640b3!2sSad%20ul.%209%2C%2051260%2C%20Crikvenica!5e0!3m2!1shr!2shr!4v1676564628931!5m2!1shr!2shr"
+                                                max-width="100%"
+                                                height="250"
+                                                style="border: 0"
+                                                allowfullscreen=""
+                                                loading="lazy"
+                                                r
+                                                eferrerpolicy="no-referrer-when-downgrade"
+                                                class="mapa"
+                                        >
                                         </iframe>
+                                </div>
                         </div>
                 </div>
-            </div>
+
+                <footer style="background-color: purple;">
+                        <div class="container-fluid padding">
+                                <div class="row text-center">
+                                        
+
+                                <div class="row text-center">
+                                        <div class="col-12">
+                                                <h5 style="color: white; font-size: medium; padding-top: 40px;">
+                                                       &copy; apartmaniema.com
+                                                </h5>
+                                        </div>
+                                </div>
+                        </div>
+
+                </footer>
+
         </body>
 </html>
